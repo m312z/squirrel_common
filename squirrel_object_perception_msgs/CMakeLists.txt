@@ -54,6 +54,7 @@ add_message_files(
   Classification.msg
   Saliency.msg
   ViewpointEntropy.msg
+  ObjectToDB.msg
 )
 
 ## Generate services in the 'srv' folder
