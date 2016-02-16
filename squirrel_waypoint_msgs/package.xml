@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
 <package>
   <name>squirrel_waypoint_msgs</name>
-  <version>0.0.1</version>
-  <description>Waypoint service messages for requesting robot poses for various tasks in SQUIRREL.</description>
-  <maintainer email="michael.cashmore@kcl.ac.uk">michael</maintainer>
+  <version>0.0.8</version>
+  <description>Messages, actions and services for creating waypoints for the planner</description>
+  <maintainer email="langer@acin.tuwien.ac.at">Edith Langer</maintainer>
   <license>BSD</license>
   <url type="website">http://www.squirrel-project.eu</url>
 
   <buildtool_depend>catkin</buildtool_depend>
-
   <build_depend>std_msgs</build_depend>
   <build_depend>diagnostic_msgs</build_depend>
   <build_depend>message_generation</build_depend>

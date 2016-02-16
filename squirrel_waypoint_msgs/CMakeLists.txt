@@ -3,17 +3,27 @@ project(squirrel_waypoint_msgs)
 
 ## Find catkin macros and libraries
 find_package(catkin REQUIRED COMPONENTS
+  geometry_msgs
   message_generation
   diagnostic_msgs
   geometry_msgs
   std_msgs
 )
 
+#add_message_files(
+#  FILES
+#)
+
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
   ManipulationWaypointService.srv
+  ExamineWaypoint.srv
 )
+
+#add_action_files(
+#  FILES
+#)
 
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
